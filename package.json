@@ -1,0 +1,15 @@
+{
+  "name": "nodeexamples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "one.js",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thephotogenicbug",
+  "license": "ISC"
+}
