@@ -31,5 +31,6 @@ http.createServer(function (req, res) {
         data = data + "<p>" + bookinfo.name + "---------------------" + bookinfo.price + "</p>";
     })
     data = data + mymdl.CityList();
+    data = data + "<br/> <br/>" + mymdl.BookList();
     res.end(data);
 }).listen(3131)
