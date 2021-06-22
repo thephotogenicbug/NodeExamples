@@ -1,8 +1,7 @@
-var http = require('http');
-http.createServer(function(req, res){
+var http = require("http");
+http.createServer(function(res, res){
 
+    res.end("<h1>Welcome to Node </h1>");
+    res.end("Hello Test ,  dfg dfg dfg dd gdf dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg dfg ");
 
-    res.end('<h1>Welcome to node</h1>');
-    res.end('This is test '); 
-
-}).listen(4141)
+}).listen(8000)

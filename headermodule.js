@@ -8,7 +8,7 @@ exports.TopHeader = () =>{
     data = data + "<a href='image.html'>Gallary</a> --- ";
     data = data + "<a href='customer.html'>Customer</a>--- ";
     data = data + "<a href='customerlist.html'>Customer List</a>";
-    data = data + "<hr color = 'blue' size='10' >"
+    data = data + "<hr color = 'orange' size='15' >"
     data = data + "</p>";
     return data;
 
